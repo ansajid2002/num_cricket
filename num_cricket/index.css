@@ -1,0 +1,65 @@
+body {
+    background:lightslategray;
+}
+.container {
+    
+    width:600px;
+    margin:0 auto;
+    background:lightgreen;
+    text-align:center;
+}
+h1 {
+    margin-top:0;
+    text-decoration:underline;
+    color:brown;
+    font-size:40px;
+}
+
+.you-el,
+.computer-el {
+    border:5px dotted blue;
+    padding:10px;
+}
+.match-begins {
+    display:flex;
+    justify-content:space-evenly;
+}
+h2 {
+    text-decoration:underline;
+    font-style: italic;
+    background:yellow;
+    border-radius:10px;
+    font-size:30px;
+}
+button {
+    border-radius:50%;
+    padding:10px;
+    color:blue;
+    background:yellow;
+    font-weight:bold;
+    font-size:20px;
+    
+}
+#comp-el {
+    color:blue;
+    font-weight:bold;
+    font-size:25px;
+}
+.info {
+    text-transform: capitalize;
+    font-weight:bold;
+    color:indigo;
+    font-size:25px;
+}
+.retrycss {
+    border-radius:10%;
+    padding:20px;
+    font-size:20px;
+    margin-bottom:10px;
+}
+#match-time {
+    font-size:25px;
+    background:green;
+    color:lightgreen;
+
+}

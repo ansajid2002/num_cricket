@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Score many runs as you can!</h1>
+        <button onclick="start()">START GAME</button>
+        <p id="match-time"></p>
+        <div class="match-begins">
+            <div class="you-el">
+                <h2 class="G-para">you are batting</h2>
+                <button onclick="rone()">1</button>
+                <button onclick="rtwo()">2</button>
+                <button onclick="rthree()">3</button>
+                <button onclick="rfour()">4</button>
+                <button onclick="rsix()">6</button>
+            </div>
+            <div class="computer-el">
+                <h2 class="G-para">computer is bowling</h2>
+                <p id="comp-el">Let's PLAY</p>
+            </div>
+        </div>
+        
+        <p class="info" id="runs-el">runs:0 </p>
+        <p class="info" id="result-el"></p>
+        <button class="retrycss"onclick="reset()">RETRY</button>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
